@@ -1,5 +1,13 @@
-WhiteList
-=========
+= white_list Gem
+This is the Gem version of white_list Plugin
+
+More information about the Plugin please see below, or at https://github.com/bhedana/white_list
+
+== Install
+Put this line into Gemfile:
+  gem 'white_list', :git => "git://github.com/quyen/white_list.git"
+  
+= white_list Plugin
 
 This White Listing helper will html encode all tags and strip all attributes that aren't specifically allowed.  
 It also strips href/src tags with invalid protocols, like javascript: especially.  It does its best to counter any
